@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Link Load -->
+  <link rel="stylesheet" type="text/css" href="load1.css">
+  <!-- end -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-witdh, initial-scale=1">
+  <title>Tokyo Gang - 東京卍リベンジャー</title>
+  <link rel="stylesheet" type="text/css" href="slider.js">
+  <link rel="stylesheet" type="text/css" href="slider1.css">
+
+  <link rel="shortcut icon" href="image/Toman_Symbol.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+   <link rel='stylesheet' href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css">
+<script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
+  <link rel="stylesheet" type="text/css" href="butter.js">
+  <script> new WOW().init(); </script>
+  <link
+    rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+<!-- Font Character -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<!-- Font Character -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="style1.css">
+<script type="" src="split.js"></script>
+<style>
+.button_movie ::before{
+  background-image: url('image/btn_video.png');
+  z-index: 1;
+}
+  .one::before{
+    content: '';
+    width: 98%;
+    height: 93%;
+    position: absolute;
+   background-image: url('image/bg_movie_pattern.png');
+     z-index: 1;
+
+  }
+  .ttl::before{
+    content: '';
+        width: 3em;
+    height: 0.4em;
+    display: inline-block;
+    background: url('image/sword.png');
+    background-size: 100%;
+  }
+  .ttl::after{
+    content: '';
+       width: 3em;
+    height: 0.4em;
+    display: inline-block;
+    background: url('image/sword1.png');
+    background-size: 100%;
+
+  }
+  .introduction ::before{
+    width: 100%;
+    height: 100%;
+  background-image: url('image/bg_pattern_triangle.png');
+  background-size: 100%;
+  }
+  .bg_bottom ::before{
+    background-image: url('image/bg_pattern_triangle.png');
+  }
+  .carousel-caption h1::before{
+    content: 'T';
+    color: red;
+
+  }
+ 
+</style>
+
+</head>
+<body >
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top  " >
+  <div class="container-fluid fixed-top" >
+    <a class="navbar-branch" href="#">
+
+      <img height="60"   src="image/logotokyomanij.jpg">     
+
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+      <span class="navbar-toggler-icon"></span>
+      
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto ">
+        <li class="nav-item">
+          <a href="#" class="nav-link active" style="color:red !important" >Home</a>
+        </li><li class="nav-item">
+          <a href="#" class="nav-link">News</a>
+        </li><li class="nav-item">
+          <a href="#" class="nav-link">Movie</a>
+        </li><li class="nav-item">
+          <a href="#" class="nav-link">Twitter</a>
+        </li><li class="nav-item">
+          <a href="#" class="nav-link">Story</a>
+        </li><li class="nav-item">
+          <a href="#" class="nav-link">Wallpaper</a>
+        </li>
+           <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Drop Link
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Live Acction</a>
+          <a class="dropdown-item" href="#">Movie</a>
+          <a class="dropdown-item" href="#">Music</a>
+        </div>
+      </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="snowflakes" aria-hidden="true">
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+   <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+
+</div>
+
+  
+<div class="smooth-scroll-wrapper">
+<div id="contentt">
+
+      <div class="carousel">
+    <video width="100%"    autoplay="autoplay" loop="true"  muted>
+  <source src="image/lv_0_20211016133928_Trim.mp4" type="">
+    </video>
+<div class="carousel-caption d-none d-md-block">
+
+        <h1  style="font-family: 'Anton', sans-serif;" data-wow-delay="0.1s" class="wow bounceInDown center" > o k yo - R e v e n g e r</h1>
+        <h3>東京魔人學ギャング</h3>
+
+      <button type="button" class="btn btn-lg">Let's read</button>
+
+      </div>
+
+</div>
+      
+    
+  <button onclick="topFunction()" id="myBtn" title="Go to top">🔝</button>
+
+
+
+
+
+
+  <div id="gt" class="container-fluid ">
+
+  <div class="jumbotron">
+    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10 ">
+      <p>Stay tuned so you don't miss an article about Tokyo Revenger ! </p>
+      
+      <p>良い1日を！</p>
+    </div>
+    
+  </div>
+   </div>
+       
+<div class="container-fluid " style="background-image: url('image/bg_white.gif');">
+  <div class="container ">
+    <div class="row">
+
+  <div class="news  col-md-6 cold-sm-12 col-xs-12"  >
+    <div class="welcome">
+   <h2>   NEWS - ニュース</h2>
+    </div>
+  <div class="bgd height hover ">
+    <a href="">
+    <div class="news_date font-weight-bold">2021.10.9</div>
+    <div class="news_title text-center charecter">
+TV Anime "Tokyo Revengers" Sube Akira Wei Bento-Tokyo Revengers Tachikawa Michirin Fool-Information on mobilization standards！</div>
+    </a>
+  </div>
+  <hr>
+    <div class="bgd height hover ">
+    <a href="">
+    <div class="news_date font-weight-bold">2021.13.9</div>
+    <div class="news_title text-center charecter">
+"Tokyo Revengers" POP UP SHOP in Kotobukiya will be held from October 8th!</div>
+    </a>
+  </div>
+  <hr>
+   <div class="bgd height hover ">
+    <a href="">
+    <div class="news_date font-weight-bold">2021.11.9</div>
+    <div class="news_title text-center charecter">
+TV anime "Tokyo Revengers" x apparel brand "Lee" collaboration sweatshirts will be on sale!</div>
+    </a>
+  </div>
+  <hr>
+   <div class="bgd height hover ">
+    <a href="">
+    <div class="news_date font-weight-bold">2021.10.9</div>
+    <div class="news_title text-center charecter">「
+
+TV Anime "Tokyo Revengers" Sube Akira Wei Bento-Tokyo Revengers Tachikawa Michirin Fool-Notice about the performers!</div>
+    </a>
+  </div>
+  <hr>
+  <button type="button" class="btn btn-outline-dark">more ➙</button>
+  </div>
+
+
+
+  <div class="Twitter col-md-6 col-xs-12 col-sm-12" style="background-image:url('image/bg_black.gif'); ">
+    <div class="welcome">
+   <h2 style="color:white;">   Twitter - ニュース</h2>
+    </div>
+     <div class=" text-center">
+       <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">祝！累計4000万部突破＆70万フォロワー突破！！<br><br>読者の皆様に感謝です！<br><br>そしてこれからも東京卍リベンジャーズをよろしくお願いします！<br><br>（和） <a href="https://t.co/QHfngYKk7P">pic.twitter.com/QHfngYKk7P</a></p>&mdash; Quan Minh (@QuanMin30120769) <a href="https://twitter.com/QuanMin30120769/status/1449320256875339779?ref_src=twsrc%5Etfw">October 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        
+        </div>
+  </div>
+  </div>
+  </div>
+</div>
+<!--end-->
+<hr>
+
+
+
+
+
+    
+</div>
+<hr>
+<div class="welcome text-center col-12 charecter d-flex">
+<h2 style="background: linear-gradient(transparent 50%,#ffd400 0);"> TOMAN</h2>
+<hr> </div>
+ 
+    <!-- charecter -->
+<div class="container-fluid " style="background-image:url('image/to1.jpg');">
+  <div class="row">
+<section class="pen">
+    <div class="stage">
+
+      <div class="element michael">
+        
+      </div>
+      <div class="element hanemiya"></div>
+      <div class="element franklin"></div>
+      <div class="element baji"></div>
+      <div class="element trevor"></div>
+    </div>
+  </section>
+  </div>
+</div>
+
+<!-- charecter -->
+  <script type="text/javascript" src="charecter.js"></script>
+<!-- product -->
+  <div class="product" >
+    <div class="welcome col-12 charecter d-flex ">
+      <hr>
+      <h2 style="background: linear-gradient(transparent 50%,#ffd400 0);">PRODUCT</h2>
+    </div>
+    <div class="container-fluid producttion">
+    <div class="container " >
+      <div class="row" style="background-image: url('image/bg_text_light.png');">
+      <!-- flip-card-container -->
+<!-- flip-card-container -->
+<div class="col-md-4 col-sm-2 col-xs-2">
+  <div class="flip-card-container" style="--hue: 170">
+  <div class="flip-card">
+
+    <div class="card-front">
+      <figure>
+        <div class="img-bg"></div>
+        <img height="100%" src="image/ep02_jk.jpg" alt="Image 2">
+        <figcaption>EP 02</figcaption>
+      </figure>
+
+    </div>
+
+    <div class="card-back">
+      <figure>
+        <div class="img-bg"></div>
+        <img height="100%" src="image/ep02_jk.jpg" alt="image-2">
+      </figure>
+
+      <button>Listen</button>
+
+      <div class="design-container">
+        <span class="design design--1"></span>
+        <span class="design design--2"></span>
+        <span class="design design--3"></span>
+        <span class="design design--4"></span>
+        <span class="design design--5"></span>
+        <span class="design design--6"></span>
+        <span class="design design--7"></span>
+        <span class="design design--8"></span>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+<!-- 2-->
+<div class="col-md-4 col-sm-2 col-xs-2">
+  <div class="flip-card-container" style="--hue: 170">
+  <div class="flip-card">
+
+    <div class="card-front">
+      <figure>
+        <div class="img-bg"></div>
+        <img height="100%" src="image/soundtrack_jk.jpg" alt="Image 2">
+        <figcaption>Music</figcaption>
+      </figure>
+
+    </div>
+
+    <div  class="card-back">
+      <figure>
+        <div class="img-bg"></div>
+        <img height="100%" src="image/soundtrack_jk.jpg" alt="image-2">
+      </figure>
+
+      <button>Listen</button>
+
+      <div class="design-container">
+        <span class="design design--1"></span>
+        <span class="design design--2"></span>
+        <span class="design design--3"></span>
+        <span class="design design--4"></span>
+        <span class="design design--5"></span>
+        <span class="design design--6"></span>
+        <span class="design design--7"></span>
+        <span class="design design--8"></span>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+<!-- p3-->
+<div class="col-md-4 col-sm-2 col-xs-2">
+  <div class="flip-card-container" style="--hue: 170">
+  <div class="flip-card">
+
+    <div class="card-front">
+      <figure>
+        <div class="img-bg"></div>
+        <img height="100%" src="image/ep01_jk.jpg" alt="Image 2">
+        <figcaption>EP 01</figcaption>
+      </figure>
+
+    </div>
+
+    <div class="card-back">
+      <figure>
+        <div class="img-bg"></div>
+        <img height="100%" src="image/ep01_jk.jpg" alt="image-2">
+      </figure>
+
+      <button>Listen</button>
+
+      <div class="design-container">
+        <span class="design design--1"></span>
+        <span class="design design--2"></span>
+        <span class="design design--3"></span>
+        <span class="design design--4"></span>
+        <span class="design design--5"></span>
+        <span class="design design--6"></span>
+        <span class="design design--7"></span>
+        <span class="design design--8"></span>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+</div>
+<div class="row">
+
+<div class="col-md-4 col-sm-2 col-xs-2">
+  <div class="flip-card-container" style="--hue: 170">
+  <div class="flip-card">
+
+    <div class="card-front">
+      <figure>
+        <div class="img-bg"></div>
+        <img height="100%" src="image/op_index.jpg" alt="Image 2">
+        <figcaption>MUSIC</figcaption>
+      </figure>
+<ul class="front-text">
+        <li>Cry Baby</li>
+        <li>Satoshi Fujihara</li>
+        <li>Daisuke Ozasa</li>
+        <li>Makoto Narazaki</li>
+        <li>Masaki Matsuura</li>
+      </ul>
+    </div>
+
+    <div class="card-back">
+      <figure>
+        <div class="img-bg"></div>
+        <img height="100%" src="image/op_index.jpg" alt="image-2">
+      </figure>
+
+      <button>Listen</button>
+
+      <div class="design-container">
+        <span class="design design--1"></span>
+        <span class="design design--2"></span>
+        <span class="design design--3"></span>
+        <span class="design design--4"></span>
+        <span class="design design--5"></span>
+        <span class="design design--6"></span>
+        <span class="design design--7"></span>
+        <span class="design design--8"></span>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+<div class="col-md-4 col-sm-2 col-xs-2">
+  <div class="flip-card-container" style="--hue: 170">
+  <div class="flip-card">
+
+    <div class="card-front">
+      <figure>
+        <div class="img-bg"></div>
+        <img height="100%" src="image/ed2_index.jpg" alt="Image 2">
+        <figcaption>MUSIC</figcaption>
+      </figure>
+<ul class="front-text">
+        <li>Weekly Shonen Magazine</li>
+        <li>Fukushima Hideki </li>
+        <li>Masato Taira</li>
+        <li>Ryota Osaka</li>
+      
+      </ul>
+    </div>
+
+    <div class="card-back">
+      <figure>
+        <div class="img-bg"></div>
+        <img height="100%" src="image/ed2_index.jpg" alt="image-2">
+      </figure>
+
+      <button>Listen</button>
+
+      <div class="design-container">
+        <span class="design design--1"></span>
+        <span class="design design--2"></span>
+        <span class="design design--3"></span>
+        <span class="design design--4"></span>
+        <span class="design design--5"></span>
+        <span class="design design--6"></span>
+        <span class="design design--7"></span>
+        <span class="design design--8"></span>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+<div class="col-md-4 col-sm-2 col-xs-2">
+  <div class="flip-card-container" style="--hue: 170">
+  <div class="flip-card">
+
+    <div class="card-front">
+      <figure>
+        <div class="img-bg"></div>
+        <img height="100%" src="image/ed_index.jpg" alt="Image 2">
+        <figcaption>MUSIC</figcaption>
+      </figure>
+<ul class="front-text">
+        <li>Ryo’LEFTY’Miyata</li>
+        <li>Katsushiro</li>
+        <li>nabeLTD</li>
+        <li>So Kanno</li>
+        <li>Rock Sakurai</li>
+      </ul>
+    </div>
+
+    <div class="card-back">
+      <figure>
+        <div class="img-bg"></div>
+        <img height="100%" src="image/ed_index.jpg" alt="image-2">
+      </figure>
+
+      <button>Listen</button>
+
+      <div class="design-container">
+        <span class="design design--1"></span>
+        <span class="design design--2"></span>
+        <span class="design design--3"></span>
+        <span class="design design--4"></span>
+        <span class="design design--5"></span>
+        <span class="design design--6"></span>
+        <span class="design design--7"></span>
+        <span class="design design--8"></span>
+      </div>
+    </div>
+</div>
+  </div>
+</div>
+</div>
+
+<!-- end -->
+      </div>
+    </div>
+
+  </div>
+  <!-- story -->
+  <div class="container-fluid  story ">
+    <div class=" container   ">
+      <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10 w-story  ">
+        <div class="title_story ">
+      <h2>What is "Tokyo Revengers"?</h2>
+      <p>This work, which started serializing in "Weekly Shonen Magazine" in 2017 and has exceeded 20 million copies in total,</p>
+      <p>The latest giant edition presented by Ken Wakui, the creator of "Shinjuku Swan".</p>
+      <p>A live-action movie will also be released in 2021!！</p>
+      <div class=" ">
+      <div > 
+        <h2 >INTRODUCTION</h2>
+        <p >Takemichi Hanagaki, a bad part-time jobber at the bottom of his life.
+Hinata Tachibana, the only lover in her life who was dating in junior high school,</p>
+<p >He learns that he was killed by the worst and worst villain coalition "Tokyo Revengers".</p>
+<p >The day after learning about the incident, Takemichi was at the platform of the station.</p>
+<p >He was pushed by someone on his back and fell onto the railroad tracks, preparing to die,</p>
+<p >When I opened his eyes, he was time-leaping 12 years ago for some reason.</p>
+<p >Time-leaped in middle school 12 years ago, the peak of his life,
+To save his lover, to change himself who kept running away
+Start the revenge of life!</p>
+</div>
+</div>
+      </div >
+
+    
+       
+      </div>
+      
+      
+  </div>
+  </div>
+  <!-- liveacction-->
+  
+  <div class="">
+    <div class="welcome trailer text-center ">
+      <hr>
+      <h2 >LIVE ACTION </h2>
+      <p>Released in theaters on July 9, recently "Tokyo Revengers" live-action stopped <br>showing with a record revenue of 4.3 billion yen </p>
+      <p>netizens raced to praise the film's character creation very "genuine".</p>
+    </div>
+    <div class="splitview skewed">
+        <div class="panel bottom">
+            <div class="content">
+                <div class="description liveaction">
+                    <h1>ANIME</h1>
+                    <p>Original written up and published</p>
+                </div>
+
+                <img height="45%" src="image/real.jpg" alt="Original">
+            </div>
+        </div>
+
+        <div class="panel top">
+            <div class="content">
+                <div class="description liveaction">
+                    <h1>LIVE - ACTION</h1>
+                    <p>The anime - manga has been made into a movie</p>
+                </div>
+
+                <img height="45%" src="image/live.png" alt="Duotone">
+            </div>
+        </div>
+
+        <div class="handle"></div>
+    </div>
+  </div>
+<!-- end -->
+<!-- DVD - produc -->
+<div class="  " >
+  <div class="container-fluid DVD" >
+    <div class="welcome text-center charecter ">
+      <h2>D V D</h2>
+      <p>DVDs that have been aired</p>
+      <p>On June 16, volume 1 of Blu-ray and DVD will be officially released.</p>
+      <p>Volume 1 will include ep 1 ~ ep 4 of the Anime, a 68-page booklet with two chapters drawn by Wakui-sensei (a chapter about Kazutora's childhood) </p>
+      <p>And interviews, Chibi Ribe (ep 1 ~ ep 4) , OP and ED have no credits</p>
+    </div>
+    <main class="page-content BG_after">
+      
+  <div class="card">
+    <div class="contenta">
+      <h2 class="title">Blu-ray&DVD 第1巻</h2>
+      <p class="copy"></p>
+      <button class="btn">Watch movie</button>
+    </div>
+  </div>
+  <div class="card">
+    <div class="contenta">
+      <h2 class="title">Blu-ray&DVD 第2巻</h2>
+      <p class="copy"></p>
+      <button class="btn">Watch movie</button>
+    </div>
+  </div>
+  <div class="card">
+    <div class="contenta">
+      <h2 class="title">Blu-ray&DVD 第3巻</h2>
+      <p class="copy"></p>
+      <button class="btn">Watch movie</button>
+    </div>
+  </div>
+  <div  class=" card">
+    <div class="contenta">
+      <h2 class="title">Blu-ray&DVD 第4巻</h2>
+      <p class="copy"></p>
+      <button class="btn">Watch movie</button>
+    </div>
+  </div>
+</main>
+  </div>
+  <div class="Talkshow container-fluid">
+    <div class=" d-flex  ">
+      
+      <h2 >STAFF & CAST</h2>
+      <hr >
+    </div>
+    <div class="staff container ">
+   <div class="row">
+      <div class="col-xs-6 col-sm-6 col-md-6 ">
+      <span>S T A F F</span> <h4> - Koichi Hatsumi</h4>
+    <span> Components of the series</span>  <h4>: Yasuyuki Mutou</h4>
+       <span>Character design </span> <h4>- Kenichi Onuki / Keiko Ota</h4>
+      <span>Art director</span> <h4>- Naomi Ogura</h4>
+     <span> Cinematographer</span> <h4>: Yayoshi Yamamoto</h4>
+      <span>3D Director </span><h4>- Hira Masato</h4>
+      </div> 
+       <div class="col-xs-6 col-sm-6 col-md-6 ">
+      <span>
+Music</span> <h4> - Hiroaki Tsutsumi</h4>
+    <span> Opening theme song
+</span>  <h4>- "Cry Baby" Official Hige Dandism</h4>
+       <span>CAST </span> <h4>- "Martial Arts Hanagaki (Takemichi)</h4>
+      <span></span> <h4>- Naomi Ogura</h4>
+     <span> </span> <h4>- Manjiro Sano (Mikey)</h4>
+      <span> </span><h4>- Draken Ryuguji</h4>
+      <button type="button" class="btn btn-dark">More...</button>
+      </div> 
+    </div>
+
+    </div>
+    
+    </div>
+    <div class="Movie container-fluid">
+      <div class="d-flex ">
+        <hr>
+        <h2>MOVIE - AMV - TRAILER</h2>
+
+      </div>
+      <p class="text-center">
+Highlights battles will be constantly updated!</p>
+      <div class="row">
+        <div class="col-md-4">
+           <a href="">
+          <img width="100%" src="image/movie3.jpg">
+         </a>
+        </div>
+        <div class="col-md-4">
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/5sQSHwZkK1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-4">
+          <a href="">
+          <img width="100%" src="image/movie6.jpg">
+         </a>
+        </div>
+
+      </div>
+    </div>
+    <div class="end">
+      <div class="text-center">
+        <hr>
+        <p>
+Thank you for reading! <br> END</p>
+      </div>
+    </div>
+
+  </div>
+  <footer class=" text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/profile.php?id=100036723154806" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    <p> 
+For any questions or errors, please email: quanchun11022@gmail.com</p>
+<p>Thank you so much - どうもありがとう</p>
+    © 2021 Tokyo Gang :
+    <a class="text-white" href="">Tokyo Revenger - Q</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+</div>
+
+
+
+<!-- end -->
+
+</div>
+
+
+      <script>
+            const body = document.body,
+                scrollWrap = document.getElementsByClassName("smooth-scroll-wrapper")[0],
+                height = scrollWrap.getBoundingClientRect().height - 1,
+                speed = 0.04;
+
+            var offset = 0;
+
+           
+
+            function smoothScroll() {
+                offset += (window.pageYOffset - offset) * speed;
+
+                var scroll = "translateY(-" + offset + "px) translateZ(0)";
+                scrollWrap.style.transform = scroll;
+
+                callScroll = requestAnimationFrame(smoothScroll);
+            }
+
+            smoothScroll();
+        </script>
+
+</body>
+</html>
